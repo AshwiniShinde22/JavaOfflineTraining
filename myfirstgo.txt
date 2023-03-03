@@ -1,0 +1,37 @@
+language:golang
+Project name: myfirstgo
+
+commands:
+1)for creating module:
+go mod init rest.go
+
+2)for build RESTAPI:
+go get -u github.com/gorilla/mux
+
+3)for object relational mapping :
+go get -u gorm.io/gorm
+
+4)for database connection:
+go get -u gorm.io/driver/mysql
+
+Steps:
+
+step 1: create project myfirstgo
+
+step 2:create file main.go
+in that i calling methods which is define in routing.go and user-handler.go file
+
+step 3:create user entity for get data from user.i create that entity ad convert that attribute in json formate
+  
+step 4: creating file user-handler.go and defing methods in that file e.f createuser(),getuser()
+
+step 5: routing.go
+ in routing file we writing API's 
+
+step 6 : creating db connection with mysql
+ i create seperat file for dbconnection and define url in that file and write method using gorm on
+
+step 7: hit all API'S using Postman
+
+
+
